@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textviewinter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="International News"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recViewInterTampil"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textviewinter"
+        android:layout_above="@+id/nav_bawah">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</RelativeLayout>

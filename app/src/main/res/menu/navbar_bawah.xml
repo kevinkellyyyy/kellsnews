@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_indo"
+        android:icon="@drawable/ic_indoicon"
+        android:title="Indonesian News"/>
+
+    <item android:id="@+id/menu_inter"
+        android:icon="@drawable/ic_internaicon"
+        android:title="International News"/>
+
+    <item android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search News" />
+
+</menu>

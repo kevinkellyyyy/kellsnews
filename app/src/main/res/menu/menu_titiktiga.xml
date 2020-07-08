@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_aboutme"
+        android:icon="@drawable/ic_aboutme"
+        app:showAsAction="withText"
+        android:title="About Me"/>
+
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logouticon"
+        app:showAsAction="withText"
+        android:title="Logout"/>
+
+
+</menu>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="id.ac.umn.kevinkellyisyanta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ProjectUAS_14910"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BumperLogonya">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".IniLogin"
+            android:label="Login"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="ProjectUAS_14910" />
+        <activity
+            android:name=".IsiBeritaDetil"
+            android:label="News Detail" />
+        <activity android:name=".AboutSaya"
+            android:label="About Me"/>
+        <activity android:name=".TampilBeritaDariSumbers"
+            android:label="International News"></activity>
+    </application>
+
+</manifest>
